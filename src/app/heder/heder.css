@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+    nav div {
+        padding: 0 5px;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: none;
+    background: yellowgreen;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}

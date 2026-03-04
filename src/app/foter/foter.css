@@ -1,0 +1,19 @@
+footer {
+    background: yellow;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    * {
+        font-size: small;
+    }
+}
+
+footer * {
+    display: flex;
+    flex-direction: column;
+}
